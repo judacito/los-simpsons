@@ -1,99 +1,220 @@
 <!doctype html>
 <html lang="eS">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PÁGINA LOS SIMPSONS</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body>
-   <div class="container">
-    <div class="row">
-      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="acces/The_logo_simpsons_yellow.png" alt="logo simpsons" width="200px"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 PERSONAJES
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">HOMER</a></li>
-                  <li><a class="dropdown-item" href="#">MARGE</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">BART</a></li>
-                  <li><a class="dropdown-item" href="#">LISA</a></li>
-                  <li><a class="dropdown-item" href="#">MAGGIE</a></li>
-                </ul>
-              </li>
 
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PÁGINA LOS SIMPSONS</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="row" id="home">
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="acces/The_logo_simpsons_yellow.png" alt="logo simpsons"
+            width="400px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li  class="nav-item">
+              <a id="color" class="nav-link">INICIO</a>
+            </li>
+
+            <li id="color" class="nav-item dropdown">
+              <a id="color" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                PERSONAJES
+              </a>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item homero" href="#homer">HOMER</a></li>
+                <li><a class="dropdown-item homero" href="#marge">MARGE</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item homero" href="#bart">BART</a></li>
+                <li><a class="dropdown-item homero" href="#lisa">LISA</a></li>
+                <li><a class="dropdown-item homero" href="#maggie">MAGGIE</a></li>
+              </ul>
+            </li>
+
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+          </form>
         </div>
-      </nav>
-
-
-    </div>
-    <div class="row">
-        <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="/acces/Faamilia.png" class="d-block w-100" alt="Faamilia"width="100%">
-              </div>
-              <div class="carousel-item">
-                <img src="/acces/HOMER Y MARGE.png" class="d-block w-100" alt="HOMER Y MARGE" width="100%">
-              </div>
-              <div class="carousel-item">
-                <img src="/acces/HERMANOS.png" class="d-block w-100" alt="HERMANOS" width="100%">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-    </div>
-    <div class="row">
-        <div class="col-6">
-            <img src="/acces/OMER.png" alt="HOMER" width="100%" style="background-color: blueviolet;"></div>
-        <div class="col-6">
-          <iframe width="560" height="100%" src="https://www.youtube.com/embed/B56Wz25vMcE" title="YouTube video player" frameborder="04" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
-          <div class="position-relative py-2 px-4 text-bg-dark border border-dark rounded-pill">
-            SIGUIENTE <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1" fill="var(--bs-dark)" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
-
-          </div>
-   
-
-
-        </div>
-<footer>
-
-
-  <div class="row">
-    <div class="col-6">soy footer</div>
+      </div>
+    </nav>
 </div>
-</footer>
+<div class="row">
+  <div id="carouselExampleIndicators" class="carousel slide ">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner mt-1">
+      <div class="carousel-item active">
+        <img src="acces/Faamilia.png" class="d-block w-100" alt="Faamilia" width="100%">
+      </div>
+      <div class="carousel-item">
+        <img src="acces/HOMER Y MARGE.png" class="d-block w-100" alt="HOMER Y MARGE" width="100%">
+      </div>
+      <div class="carousel-item">
+        <img src="acces/HERMANOS.png" class="d-block w-100" alt="HERMANOS" width="100%">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+  <div class="container">
+      <div class="row">
+        <div class="col-4 contenedorhomero" id="homer">
+          <img src="acces/OMER.png" alt="HOMER" width="100%" >
+          <h1> HOMERO</h1>
+        </div>
+        <div class="col-4 contenedorhomero">
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam in cumque veniam quisquam, temporibus similique animi asperiores, alias repellendus, numquam sint molestiae perspiciatis voluptate deserunt non qui amet. Vero, dolores.</p>
+
+          </div>
+        <div class="col-4 contenedorhomero">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/B56Wz25vMcE?start=4"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe></div>
+
+            <div class="botones">
+           <div  class="position-relative py-2 px-4 text-bg-dark border border-dark rounded-pill">
+            <a href="#marge">SIGUIENTE</a> <svg width="1vh" height="1vh" viewBox="0 0 16 16"
+              class="position-absolute top-100 start-50 translate-middle mt-1" fill="var(--bs-dark)"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+            </svg>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-4 contenedorhomero" id="marge">
+            <img src="/acces/Marge.png" alt="marge" width="100%" >
+            <h1> MARGE</h1>
+          </div>
+          <div class="col-4 contenedorhomero">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam in cumque veniam quisquam, temporibus similique animi asperiores, alias repellendus, numquam sint molestiae perspiciatis voluptate deserunt non qui amet. Vero, dolores.</p>
+          </div>
+          <div class="col-4 contenedorhomero">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/eSi-JXlyhRk?start=80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+  
+              <div class="botones">
+             <div class="position-relative py-2 px-4 text-bg-dark border border-dark rounded-pill">
+              <a href="#bart">SIGUIENTE</a> <svg width="1vh" height="1vh" viewBox="0 0 16 16"
+                class="position-absolute top-100 start-50 translate-middle mt-1" fill="var(--bs-dark)"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+              </svg>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-4 contenedorhomero" id="bart">
+              <img src="/acces/BART.png" alt="BART" width="100%" >
+              <h1>BART</h1>
+            </div>
+            <div class="col-4 contenedorhomero">
+              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam in cumque veniam quisquam, temporibus similique animi asperiores, alias repellendus, numquam sint molestiae perspiciatis voluptate deserunt non qui amet. Vero, dolores.</p>
+              </div>
+            <div class="col-4 contenedorhomero">
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/RccYNS8Xyg4?start=80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
     
-   
+                <div class="botones">
+               <div class="position-relative py-2 px-4 text-bg-dark border border-dark rounded-pill">
+                <a href="#lisa">SIGUIENTE</a><svg width="1vh" height="1vh" viewBox="0 0 16 16"
+                  class="position-absolute top-100 start-50 translate-middle mt-1" fill="var(--bs-dark)"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                </svg>
+              </div> 
+              </div>
+            </div>
+          </div><div class="container">
+            <div class="row">
+              <div class="col-4 contenedorhomero" id="lisa">
+                <img src="acces/LISA.png" alt="lisa" width="80%" >
+                <h1>LISA</h1>
+              </div>
+              <div class="col-4 contenedorhomero">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam in cumque veniam quisquam, temporibus similique animi asperiores, alias repellendus, numquam sint molestiae perspiciatis voluptate deserunt non qui amet. Vero, dolores.</p>
+                </div>
+              <div class="col-4 contenedorhomero">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/saQJxHk4-Qs?start=80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+      
+                  <div class="botones">
+                 <div class="position-relative py-2 px-4 text-bg-dark border border-dark rounded-pill">
+                  <a href="#maggie">SIGUIENTE</a> <svg width="1vh" height="1vh" viewBox="0 0 16 16"
+                    class="position-absolute top-100 start-50 translate-middle mt-1" fill="var(--bs-dark)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                  </svg>
+                </div> 
+                </div>
+              </div>
+            </div><div class="container">
+              <div class="row">
+                <div class="col-4 contenedorhomero" id="maggie">
+                  <img src="/acces/Maggie-Simpson-icon.png" alt="maggie" width="100%" >
+                  <h1>MAGGIE</h1>
+                </div>
+                <div class="col-4 contenedorhomero">
+                  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam in cumque veniam quisquam, temporibus similique animi asperiores, alias repellendus, numquam sint molestiae perspiciatis voluptate deserunt non qui amet. Vero, dolores.</p>
+                  </div>
+                <div class="col-4 contenedorhomero">
+                  <iframe width="100%" height="315" src="https://www.youtube.com/embed/a21SaxrIW-k?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                  </div>
+                </div>
+              </div>
+
+    <footer class="container">
+      <div class="row">
+        <div class="col-12">
+        <div class="botonfinal">
+          <div class="position-relative py-2 px-4 text-bg-dark border border-dark rounded-pill">
+           <a href="#home">INICIO </a><svg width="1vh" height="1vh" viewBox="0 0 16 16"
+             class="position-absolute top-100 start-50 translate-middle mt-1" fill="var(--bs-dark)"
+             xmlns="http://www.w3.org/2000/svg">
+             <path
+               d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+           </svg>
+          </div>
+         </div>
+      </div>
+    </footer>
 
 
 
@@ -102,13 +223,8 @@
 
 
 
+  </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
 
-
-
-
-
-
-
-    <script src="js/bootstrap.bundle.min.js"></script>
-  </body>
 </html>
