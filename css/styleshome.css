@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    }
+    
+    body {
+    
+        margin: 0;
+        padding: 0;
+        font-family: simpson;
+        color: rgb(247, 151, 7);
+        background-image: auto;
+        
+        
+    }
+    
+    @font-face {
+        font-family: simpson;
+        src: url(../fonts/simpson.otf);
+    
+    }
+    
+    #color{
+        color: rgb(248, 247, 246);
+        font-size: 25px;
+    }
+
+
+    .bienvenidos {
+justify-content: star;
+text-align: center;
+background-image: url(../acces/fondo\ los\ simpsons.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+
+    }
