@@ -20,7 +20,7 @@ body {
 
 #color{
     color: rgb(248, 247, 246);
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .contenedorhomero {
@@ -68,10 +68,13 @@ p {
     display: flex;
     margin: 10px;
     font-size: 30px;
-    justify-content:center;
+    justify-content: center;
     width: 100%;
 }
 
 .contenedor {
 font-size: 40px;
+ display: flex;
+ justify-content: center;
 }
+
